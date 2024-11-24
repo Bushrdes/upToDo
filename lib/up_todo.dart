@@ -10,14 +10,13 @@ class UpTodo extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: AppStrings.nameApp,
-    
       home: Scaffold(
         backgroundColor: AppColors.black,
         body: Center(
           child: Image.asset(AppAssets.logo),
         ),
       ),
-      debugShowCheckedModeBanner: false, 
+      debugShowCheckedModeBanner: false,
     );
   }
 }
